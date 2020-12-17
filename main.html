@@ -1,36 +1,159 @@
-<!doctype HTML>
 <!DOCTYPE html>
 <html lang="ko">
   <head>
     <title>중고라 or 앙고라</title>
     <meta charset="utf-8">
+    <style>
+      a {
+        color: black;
+        text-decoration: none;
+      }
+
+      .site_link{
+        list-style: none;
+        margin-left: -25px;
+      }
+
+      .site_link_title{
+        list-style: none;
+        margin-left: -25px;
+      }
+
+    </style>
   </head>
+  <!--
+  <body leftmargin="0" topmargin = "0" marginwidth = "0" marginheight = "0" style="background-image:url(background1.png); background-repeat:no-repeat; background-size:100% 200px;">
+  -->
 
   <body>
-    <h1>중고라(앙고라)</h1>
+    <div class = "site_name_div" name = "site_name_div" style="margin-left: 250px; width: 1000px; display: block; background-color: green;">
+      <h4 align = "center" style="margin-bottom: -25px; padding-top: 10px">중앙대학교 커뮤니티</h4>
+      <h1 align = "center" style="padding-bottom: 10px;">중고라(앙고라)</h1>
+    </div>
 
-    <ul>
-      <li><a href="https://www.cau.ac.kr/index.do" target="_blank">중앙대학교</a></li>
-    </ul>
-    <ul>
-      <li><a href="http://human.cau.ac.kr/" target="_blank">인문대</a></li>
-      <li><a href="http://society.cau.ac.kr/" target="_blank">사회과학대</a></li>
-      <li><a href="http://edu.cau.ac.kr/" target="_blank">사범대</a></li>
-      <li><a href="http://nature.cau.ac.kr/" target="_blank">자연과학대</a></li>
-      <li><a href="http://cobiotech.cau.ac.kr/" target="_blank">생명공학대</a></li>
-      <li><a href="http://coe.cau.ac.kr/main/main.php" target="_blank">공과대</a></li>
-      <li><a href="http://ict.cau.ac.kr/20150610/main/main.php" target="_blank">창의ICT대</a></li>
-      <li><a href="http://cse.cau.ac.kr/swc" target="_blank">소프트웨어대</a></li>
-      <li><a href="http://bne.cau.ac.kr/" target="_blank">경영경제대</a></li>
-      <li><a href="http://med.cau.ac.kr/" target="_blank">의과대</a></li>
-      <li><a href="http://pharm.cau.ac.kr/151127/index.php" target="_blank">약학대</a></li>
-      <li><a href="http://nursing.cau.ac.kr/" target="_blank">간호대</a></li>
-      <li><a href="http://arts.cau.ac.kr/user-datas/ko/main.asp" target="_blank">예술대</a></li>
-      <li><a href="http://artech.cau.ac.kr/" target="_blank">예술공학대</a></li>
-      <li><a href="http://sport.cau.ac.kr/" target="_blank">체육대</a></li>
-      <li><a href="http://ge.cau.ac.kr/" target="_blank">다빈교양대</a></li>
-      <li><a href="https://www.cau.ac.kr/cms/FR_CON/index.do?MENU_ID=130&P_TAB_NO=3&TAB_NO=2" target="_blank">융,연,자 설계</a></li>
-    </ul>
+    <div class="line_div" name="title_line_div" align="center" style="width: 1000px; margin-top: -15px; margin-left: 250px; border-top: 5px solid rgb(36, 83, 165); display: block;">
+    </div>
+
+    <!-- 게시판 전체 포함 div 끝-->
+    <div class = "post_list_div" name = "post_list_div" align = "center" style="float: left; width: 1000px; height: 800px; margin-top: 8px; margin-left: 250px; background-color: blue; display: block;"> <!-- 게시판과 검색, 로그인 부분을 가진 div -->
+
+      <!-- 게시판  리스트 div시작 -->
+      <div style="float: left; width: 1000px; height: 166px; background-color: yellow; display: block;"> <!-- 게시판 부분을 가진 div -->
+        <div style="width: 700px; float: left; display: block;">
+          <table align="center" width ="650" height="100" style="margin-top: 7px; background-color: white;"> <!-- 게시판 부분을 가진 table -->
+            <th align="left">게시판</th> <!-- 서울캠 자유게시판, 안성캠 자유게시판 -->
+            <th align="left">정보</th>
+            <th align="left">홍보</th>
+            <th align="left">단체</th>
+            <th align="left">대나무숲</th> <!-- 중앙대에 좋아하는~, 공부하기 싫을 때 소리지르는~,  -->
+            <tr> <!-- 1열: 게시판 -->
+              <td>서울캠 자유게시판</td>
+              <td>취업·진로</td>
+              <td>스터디</td>
+              <td>중대신문</td>
+              <td>설레임숲</td>
+            </tr>
+            <tr> <!-- 2열: 정보 -->
+              <td>교환학생게시판</td>
+              <td>안성캠 자유게시판</td>
+              <td>홍보게시판</td>
+              <td>UBS</td>
+              <td>우울한숲</td>
+            </tr>
+            <tr> <!-- 3열: 홍보 -->
+              <td>비밀게시판</td>
+              <td>동아리·학회</td>
+              <td>PEET</td>
+              <td>동아리연합회</td>
+              <td>스트레스숲</td>
+            </tr>
+            <tr> <!-- 4열: 단체 -->
+              <td>졸업생 게시판</td>
+              <td>공인회계사(CPA)</td>
+              <td>중앙문화</td>
+              <td>아르바이트</td>
+              <td>반려동물숲</td>
+            </tr>
+            <tr> <!-- 5열: 대나무숲 -->
+              <td>새내기 게시판</td>
+              <td>로스쿨</td>
+              <td>장터게시판</td>
+              <td>총학생회</td>
+              <td>분실물숲</td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- 검색, 로그인 div 시작 -->
+        <div style="float: right; width: 300px; height: 152px; background-color: pink; display: block;">
+          <div style="display: block; background-color: black; width: 260px; height: 34px; margin-top: 10px;">
+            <input class = "text" name = "search_post_text" type = "text" placeholder="전체 게시물 검색" style="width: 200px; height: 25px; float: left;" />
+            <input class = "button" name = "search_post_button" type="button" value = "검색" style="width: 50px; height: 30px; float: left;"/>
+          </div>
+
+          <div style="display: block; background-color: red; margin-top: -7px">
+            <p class="input"  style="padding-top: 10px;">
+              <input placeholder="아이디(ID)" type="text" name="login_id" class = "text" style="width: 250px; height: 20px;"/>
+            </p>
+            <p class="input" style="margin-top: -16px;">
+              <input placeholder="비밀번호(Password)" type="password" name = "login_pw" class="text" style="width: 250px; height: 20px;"/>
+            </p>
+            <p style="margin-top: -15px;">
+              <input type="button" name = "login_button" class="button" value="로그인" style="width: 258px; height: 25px;" />
+            </p>
+
+            <p class = "input" align = "left" style="margin-left: 20px; margin-top: -14px;">
+              <a style="font-size: 12px; float: left; display: block;">아이디/비밀번호 찾기</a>
+            </p>
+            <p class = "input" align = "right" style="margin-right: 20px;  padding-bottom: 6px;">
+              <a style="font-size: 12px; display: block;">회원가입</a>
+            </p>
+
+          </div>
+        </div>
+        <!-- 검색, 로그인 div 끝 -->
+      </div>
+      <!-- 게시판 리스트 div끝 -->
+
+
+      <!-- 게시판 내용 div 시작 -->
+      <div class = "post_view_div" name = "post_view_div" style="width: 1000px; height: 500px; float: left; background-color: #FFDAB9; display: block;">
+        <div class = "realtime_popularity_post_div" name = "realtime_popularity_post_div" style="width: 300px; height: 300px; float: left; background-color: #90EE90; display: block;">
+
+        </div>
+      </div>
+      <!-- 게시판 내용 div 시작 -->
+
+    </div>
+    <!-- 게시판 전체 포함 div 끝-->
+
+    <!-- 사이트 바로가기 div 시작-->
+    <div class = "side_div" name = "side_div" style="margin-top: 8px; margin-right: 118px; float: right; display: block; background-color: green; width: 135px; height: 500px;">
+      <div align = "left" class = "site_link_div" name = "site_link_div" style="width: 135px; height: 470px; display: block; background-color: orange;">
+        <ul>
+          <li class = "site_link_title" style="padding-bottom: 10px; font-size: 18px;"><a>학교 바로가기</a></li>
+          <li class = "site_link" style="padding-bottom: 10px;"><a href="https://www.cau.ac.kr/index.do" target="_blank">중앙대학교</a></li>
+          <li class = "site_link_title" style="padding-bottom: 10px; font-size: 18px;"><a>학과 바로가기</a></li>
+          <li class="site_link"><a href="http://human.cau.ac.kr/" target="_blank">인문대</a></li>
+          <li class="site_link"><a href="http://society.cau.ac.kr/" target="_blank">사회과학대</a></li>
+          <li class="site_link"><a href="http://edu.cau.ac.kr/" target="_blank">사범대</a></li>
+          <li class="site_link"><a href="http://nature.cau.ac.kr/" target="_blank">자연과학대</a></li>
+          <li class="site_link"><a href="http://cobiotech.cau.ac.kr/" target="_blank">생명공학대</a></li>
+          <li class="site_link"><a href="http://coe.cau.ac.kr/main/main.php" target="_blank">공과대</a></li>
+          <li class="site_link"><a href="http://ict.cau.ac.kr/20150610/main/main.php" target="_blank">창의ICT대</a></li>
+          <li class="site_link"><a href="http://cse.cau.ac.kr/swc" target="_blank">소프트웨어대</a></li>
+          <li class="site_link"><a href="http://bne.cau.ac.kr/" target="_blank">경영경제대</a></li>
+          <li class="site_link"><a href="http://med.cau.ac.kr/" target="_blank">의과대</a></li>
+          <li class="site_link"><a href="http://pharm.cau.ac.kr/151127/index.php" target="_blank">약학대</a></li>
+          <li class="site_link"><a href="http://nursing.cau.ac.kr/" target="_blank">간호대</a></li>
+          <li class="site_link"><a href="http://arts.cau.ac.kr/user-datas/ko/main.asp" target="_blank">예술대</a></li>
+          <li class="site_link"><a href="http://artech.cau.ac.kr/" target="_blank">예술공학대</a></li>
+          <li class="site_link"><a href="http://sport.cau.ac.kr/" target="_blank">체육대</a></li>
+          <li class="site_link"><a href="http://ge.cau.ac.kr/" target="_blank">다빈교양대</a></li>
+          <li class="site_link"><a href="https://www.cau.ac.kr/cms/FR_CON/index.do?MENU_ID=130&P_TAB_NO=3&TAB_NO=2" target="_blank">융,연,자 설계</a></li>
+        </ul>
+      </div>
+    </div>
 
   </body>
 </html>
